@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/krysdev/nodejs-sandbox/issues"
   },
-  "homepage": "https://github.com/krysdev/nodejs-sandbox#readme"
+  "homepage": "https://github.com/krysdev/nodejs-sandbox#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
