@@ -1,10 +1,3 @@
-
-const fs = require('fs')
-
-fs.readFile('./README.md', (err, data)=>{
-    if(err){console.log(err)}
-    console.log(data.toString());
-})
 const http = require('http');
 const fs = require('fs');
 
@@ -19,7 +12,7 @@ const server = http.createServer((req, res) => {
   let path = './views/';
   switch(req.url) {
     case '/':
-      path += 'index.html';
+      path += 'index.html'; 
       res.statusCode = 200;
       break;
     case '/about':
